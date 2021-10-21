@@ -1,0 +1,26 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/rush-lib](./rush-lib.md) &gt; [RushConfiguration](./rush-lib.rushconfiguration.md) &gt; [loadFromDefaultLocation](./rush-lib.rushconfiguration.loadfromdefaultlocation.md)
+
+## RushConfiguration.loadFromDefaultLocation() method
+
+<b>Signature:</b>
+
+```typescript
+static loadFromDefaultLocation(options?: ITryFindRushJsonLocationOptions): RushConfiguration;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [ITryFindRushJsonLocationOptions](./rush-lib.itryfindrushjsonlocationoptions.md) |  |
+
+<b>Returns:</b>
+
+[RushConfiguration](./rush-lib.rushconfiguration.md)

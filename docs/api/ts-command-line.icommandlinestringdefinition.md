@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/ts-command-line](./ts-command-line.md) &gt; [ICommandLineStringDefinition](./ts-command-line.icommandlinestringdefinition.md)
+
+## ICommandLineStringDefinition interface
+
+For use with [CommandLineParameterProvider.defineStringParameter()](./ts-command-line.commandlineparameterprovider.definestringparameter.md) , this interface defines a command line parameter whose argument is a string value.
+
+<b>Signature:</b>
+
+```typescript
+export interface ICommandLineStringDefinition extends IBaseCommandLineDefinitionWithArgument
+```
+<b>Extends:</b> [IBaseCommandLineDefinitionWithArgument](./ts-command-line.ibasecommandlinedefinitionwithargument.md)
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [defaultValue?](./ts-command-line.icommandlinestringdefinition.defaultvalue.md) | string | <i>(Optional)</i> The default value which will be used if the parameter is omitted from the command line. |

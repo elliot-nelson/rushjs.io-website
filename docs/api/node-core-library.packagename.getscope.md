@@ -1,0 +1,32 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [PackageName](./node-core-library.packagename.md) &gt; [getScope](./node-core-library.packagename.getscope.md)
+
+## PackageName.getScope() method
+
+The parsed NPM scope, or an empty string if there was no scope. The scope value will always include the at-sign.
+
+<b>Signature:</b>
+
+```typescript
+static getScope(packageName: string): string;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  packageName | string |  |
+
+<b>Returns:</b>
+
+string
+
+## Remarks
+
+For example, if the parsed input was " scope".

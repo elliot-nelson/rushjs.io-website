@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/terminal](./terminal.md) &gt; [TerminalTransform](./terminal.terminaltransform.md) &gt; [(constructor)](./terminal.terminaltransform._constructor_.md)
+
+## TerminalTransform.(constructor)
+
+Constructs a new instance of the `TerminalTransform` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(options: ITerminalTransformOptions);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [ITerminalTransformOptions](./terminal.iterminaltransformoptions.md) |  |

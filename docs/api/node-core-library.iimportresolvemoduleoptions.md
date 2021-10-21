@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [IImportResolveModuleOptions](./node-core-library.iimportresolvemoduleoptions.md)
+
+## IImportResolveModuleOptions interface
+
+Options for [Import.resolveModule()](./node-core-library.import.resolvemodule.md)
+
+<b>Signature:</b>
+
+```typescript
+export interface IImportResolveModuleOptions extends IImportResolveOptions
+```
+<b>Extends:</b> [IImportResolveOptions](./node-core-library.iimportresolveoptions.md)
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [modulePath](./node-core-library.iimportresolvemoduleoptions.modulepath.md) | string | The module identifier to resolve. For example " rushstack/node-core-library/lib/index.js" |

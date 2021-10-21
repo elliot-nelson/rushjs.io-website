@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md)
+
+## IApiReleaseTagMixinOptions interface
+
+Constructor options for [ApiReleaseTagMixin](./api-extractor-model.apireleasetagmixin.md) .
+
+<b>Signature:</b>
+
+```typescript
+export interface IApiReleaseTagMixinOptions extends IApiItemOptions
+```
+<b>Extends:</b> [IApiItemOptions](./api-extractor-model.iapiitemoptions.md)
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [releaseTag](./api-extractor-model.iapireleasetagmixinoptions.releasetag.md) | [ReleaseTag](./api-extractor-model.releasetag.md) |  |

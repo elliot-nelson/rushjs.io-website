@@ -1,0 +1,19 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/terminal](./terminal.md) &gt; [SplitterTransform](./terminal.splittertransform.md) &gt; [onClose](./terminal.splittertransform.onclose.md)
+
+## SplitterTransform.onClose() method
+
+<b>Signature:</b>
+
+```typescript
+protected onClose(): void;
+```
+<b>Returns:</b>
+
+void

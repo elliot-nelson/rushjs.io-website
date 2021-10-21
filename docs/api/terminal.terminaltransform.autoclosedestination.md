@@ -1,0 +1,26 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/terminal](./terminal.md) &gt; [TerminalTransform](./terminal.terminaltransform.md) &gt; [autocloseDestination](./terminal.terminaltransform.autoclosedestination.md)
+
+## TerminalTransform.autocloseDestination() method
+
+The default implementation of [TerminalTransform.onClose()](./terminal.terminaltransform.onclose.md) calls this method, which closes the [TerminalTransform.destination](./terminal.terminaltransform.destination.md) if appropriate.
+
+<b>Signature:</b>
+
+```typescript
+/** @sealed */
+protected autocloseDestination(): void;
+```
+<b>Returns:</b>
+
+void
+
+## Remarks
+
+The destination will not be closed if its [TerminalWritable.preventAutoclose](./terminal.terminalwritable.preventautoclose.md) property is `true` .

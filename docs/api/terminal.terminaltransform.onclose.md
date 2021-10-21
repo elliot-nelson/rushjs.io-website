@@ -1,0 +1,21 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/terminal](./terminal.md) &gt; [TerminalTransform](./terminal.terminaltransform.md) &gt; [onClose](./terminal.terminaltransform.onclose.md)
+
+## TerminalTransform.onClose() method
+
+
+<b>Signature:</b>
+
+```typescript
+/** @override */
+protected onClose(): void;
+```
+<b>Returns:</b>
+
+void

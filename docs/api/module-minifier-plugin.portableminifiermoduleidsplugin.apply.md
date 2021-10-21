@@ -1,0 +1,26 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/module-minifier-plugin](./module-minifier-plugin.md) &gt; [PortableMinifierModuleIdsPlugin](./module-minifier-plugin.portableminifiermoduleidsplugin.md) &gt; [apply](./module-minifier-plugin.portableminifiermoduleidsplugin.apply.md)
+
+## PortableMinifierModuleIdsPlugin.apply() method
+
+<b>Signature:</b>
+
+```typescript
+apply(compiler: Compiler): void;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  compiler | Compiler |  |
+
+<b>Returns:</b>
+
+void

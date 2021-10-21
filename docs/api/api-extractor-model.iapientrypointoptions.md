@@ -1,0 +1,19 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [IApiEntryPointOptions](./api-extractor-model.iapientrypointoptions.md)
+
+## IApiEntryPointOptions interface
+
+Constructor options for [ApiEntryPoint](./api-extractor-model.apientrypoint.md) .
+
+<b>Signature:</b>
+
+```typescript
+export interface IApiEntryPointOptions extends IApiItemContainerMixinOptions, IApiNameMixinOptions
+```
+<b>Extends:</b> [IApiItemContainerMixinOptions](./api-extractor-model.iapiitemcontainermixinoptions.md) , [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)

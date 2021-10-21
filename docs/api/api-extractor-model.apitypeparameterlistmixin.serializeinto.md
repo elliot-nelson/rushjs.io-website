@@ -1,0 +1,26 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiTypeParameterListMixin](./api-extractor-model.apitypeparameterlistmixin.md) &gt; [serializeInto](./api-extractor-model.apitypeparameterlistmixin.serializeinto.md)
+
+## ApiTypeParameterListMixin.serializeInto() method
+
+<b>Signature:</b>
+
+```typescript
+serializeInto(jsonObject: Partial<IApiItemJson>): void;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  jsonObject | Partial&lt;IApiItemJson&gt; |  |
+
+<b>Returns:</b>
+
+void

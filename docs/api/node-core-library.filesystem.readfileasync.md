@@ -1,0 +1,29 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [FileSystem](./node-core-library.filesystem.md) &gt; [readFileAsync](./node-core-library.filesystem.readfileasync.md)
+
+## FileSystem.readFileAsync() method
+
+An async version of [FileSystem.readFile()](./node-core-library.filesystem.readfile.md) .
+
+<b>Signature:</b>
+
+```typescript
+static readFileAsync(filePath: string, options?: IFileSystemReadFileOptions): Promise<string>;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  filePath | string |  |
+|  options | [IFileSystemReadFileOptions](./node-core-library.ifilesystemreadfileoptions.md) |  |
+
+<b>Returns:</b>
+
+Promise&lt;string&gt;

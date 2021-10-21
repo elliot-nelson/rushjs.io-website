@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/heft](./heft.md) &gt; [ScopedLogger](./heft.scopedlogger.md) &gt; [emitWarning](./heft.scopedlogger.emitwarning.md)
+
+## ScopedLogger.emitWarning() method
+
+Call this function to emit an warning to the heft runtime.
+
+<b>Signature:</b>
+
+```typescript
+emitWarning(warning: Error): void;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  warning | Error |  |
+
+<b>Returns:</b>
+
+void

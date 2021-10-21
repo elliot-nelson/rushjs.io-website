@@ -1,0 +1,26 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [AlreadyReportedError](./node-core-library.alreadyreportederror.md) &gt; [\[Symbol.hasInstance\]](./node-core-library.alreadyreportederror._symbol.hasinstance_.md)
+
+## AlreadyReportedError.\[Symbol.hasInstance\]() method
+
+<b>Signature:</b>
+
+```typescript
+static [Symbol.hasInstance](instance: object): boolean;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  instance | object |  |
+
+<b>Returns:</b>
+
+boolean

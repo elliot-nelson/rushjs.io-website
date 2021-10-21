@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiIndexSignature](./api-extractor-model.apiindexsignature.md) &gt; [(constructor)](./api-extractor-model.apiindexsignature._constructor_.md)
+
+## ApiIndexSignature.(constructor)
+
+Constructs a new instance of the `ApiIndexSignature` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(options: IApiIndexSignatureOptions);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [IApiIndexSignatureOptions](./api-extractor-model.iapiindexsignatureoptions.md) |  |

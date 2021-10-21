@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/module-minifier-plugin](./module-minifier-plugin.md) &gt; [ModuleMinifierPlugin](./module-minifier-plugin.moduleminifierplugin.md) &gt; [(constructor)](./module-minifier-plugin.moduleminifierplugin._constructor_.md)
+
+## ModuleMinifierPlugin.(constructor)
+
+Constructs a new instance of the `ModuleMinifierPlugin` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(options: IModuleMinifierPluginOptions);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [IModuleMinifierPluginOptions](./module-minifier-plugin.imoduleminifierpluginoptions.md) |  |

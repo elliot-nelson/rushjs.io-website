@@ -1,0 +1,26 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [AlreadyExistsBehavior](./node-core-library.alreadyexistsbehavior.md)
+
+## AlreadyExistsBehavior enum
+
+Specifies the behavior of [FileSystem.copyFiles()](./node-core-library.filesystem.copyfiles.md) in a situation where the target object already exists.
+
+<b>Signature:</b>
+
+```typescript
+export declare const enum AlreadyExistsBehavior
+```
+
+## Enumeration Members
+
+|  Member | Value | Description |
+|  --- | --- | --- |
+|  Error | <code>&quot;error&quot;</code> | If the destination object exists, report an error. |
+|  Ignore | <code>&quot;ignore&quot;</code> | If the destination object exists, skip it and continue the operation. |
+|  Overwrite | <code>&quot;overwrite&quot;</code> | If the destination object exists, overwrite it. This is the default behavior for [FileSystem.copyFiles()](./node-core-library.filesystem.copyfiles.md) . |

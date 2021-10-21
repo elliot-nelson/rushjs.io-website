@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/rush-lib](./rush-lib.md) &gt; [ApprovedPackagesConfiguration](./rush-lib.approvedpackagesconfiguration.md) &gt; [(constructor)](./rush-lib.approvedpackagesconfiguration._constructor_.md)
+
+## ApprovedPackagesConfiguration.(constructor)
+
+Constructs a new instance of the `ApprovedPackagesConfiguration` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(jsonFilename: string);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  jsonFilename | string |  |

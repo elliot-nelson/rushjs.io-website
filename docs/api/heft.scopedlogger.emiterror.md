@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/heft](./heft.md) &gt; [ScopedLogger](./heft.scopedlogger.md) &gt; [emitError](./heft.scopedlogger.emiterror.md)
+
+## ScopedLogger.emitError() method
+
+Call this function to emit an error to the heft runtime.
+
+<b>Signature:</b>
+
+```typescript
+emitError(error: Error): void;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  error | Error |  |
+
+<b>Returns:</b>
+
+void

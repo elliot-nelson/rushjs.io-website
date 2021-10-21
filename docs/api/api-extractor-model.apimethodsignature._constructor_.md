@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiMethodSignature](./api-extractor-model.apimethodsignature.md) &gt; [(constructor)](./api-extractor-model.apimethodsignature._constructor_.md)
+
+## ApiMethodSignature.(constructor)
+
+Constructs a new instance of the `ApiMethodSignature` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(options: IApiMethodSignatureOptions);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [IApiMethodSignatureOptions](./api-extractor-model.iapimethodsignatureoptions.md) |  |

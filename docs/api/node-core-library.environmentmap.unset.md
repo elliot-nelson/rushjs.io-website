@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [EnvironmentMap](./node-core-library.environmentmap.md) &gt; [unset](./node-core-library.environmentmap.unset.md)
+
+## EnvironmentMap.unset() method
+
+Removes the key from the map, if present.
+
+<b>Signature:</b>
+
+```typescript
+unset(name: string): void;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  name | string |  |
+
+<b>Returns:</b>
+
+void

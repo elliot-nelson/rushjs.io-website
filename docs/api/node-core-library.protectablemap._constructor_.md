@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [ProtectableMap](./node-core-library.protectablemap.md) &gt; [(constructor)](./node-core-library.protectablemap._constructor_.md)
+
+## ProtectableMap.(constructor)
+
+Constructs a new instance of the `ProtectableMap` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(parameters: IProtectableMapParameters<K, V>);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  parameters | [IProtectableMapParameters](./node-core-library.iprotectablemapparameters.md) &lt;K, V&gt; |  |

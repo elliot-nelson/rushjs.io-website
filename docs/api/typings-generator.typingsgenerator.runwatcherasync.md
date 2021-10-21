@@ -1,0 +1,19 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/typings-generator](./typings-generator.md) &gt; [TypingsGenerator](./typings-generator.typingsgenerator.md) &gt; [runWatcherAsync](./typings-generator.typingsgenerator.runwatcherasync.md)
+
+## TypingsGenerator.runWatcherAsync() method
+
+<b>Signature:</b>
+
+```typescript
+runWatcherAsync(): Promise<void>;
+```
+<b>Returns:</b>
+
+Promise&lt;void&gt;

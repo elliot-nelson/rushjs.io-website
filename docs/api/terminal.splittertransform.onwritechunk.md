@@ -1,0 +1,26 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/terminal](./terminal.md) &gt; [SplitterTransform](./terminal.splittertransform.md) &gt; [onWriteChunk](./terminal.splittertransform.onwritechunk.md)
+
+## SplitterTransform.onWriteChunk() method
+
+<b>Signature:</b>
+
+```typescript
+protected onWriteChunk(chunk: ITerminalChunk): void;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  chunk | [ITerminalChunk](./terminal.iterminalchunk.md) |  |
+
+<b>Returns:</b>
+
+void

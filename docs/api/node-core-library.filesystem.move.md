@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [FileSystem](./node-core-library.filesystem.md) &gt; [move](./node-core-library.filesystem.move.md)
+
+## FileSystem.move() method
+
+Moves a file. The folder must exist, unless the `ensureFolderExists` option is provided. Behind the scenes it uses `fs-extra.moveSync()`
+
+<b>Signature:</b>
+
+```typescript
+static move(options: IFileSystemMoveOptions): void;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [IFileSystemMoveOptions](./node-core-library.ifilesystemmoveoptions.md) |  |
+
+<b>Returns:</b>
+
+void

@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [FileSystem](./node-core-library.filesystem.md) &gt; [readFileToBufferAsync](./node-core-library.filesystem.readfiletobufferasync.md)
+
+## FileSystem.readFileToBufferAsync() method
+
+An async version of [FileSystem.readFileToBuffer()](./node-core-library.filesystem.readfiletobuffer.md) .
+
+<b>Signature:</b>
+
+```typescript
+static readFileToBufferAsync(filePath: string): Promise<Buffer>;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  filePath | string |  |
+
+<b>Returns:</b>
+
+Promise&lt;Buffer&gt;

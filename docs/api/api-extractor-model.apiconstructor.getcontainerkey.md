@@ -1,0 +1,26 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiConstructor](./api-extractor-model.apiconstructor.md) &gt; [getContainerKey](./api-extractor-model.apiconstructor.getcontainerkey.md)
+
+## ApiConstructor.getContainerKey() method
+
+<b>Signature:</b>
+
+```typescript
+static getContainerKey(overloadIndex: number): string;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  overloadIndex | number |  |
+
+<b>Returns:</b>
+
+string

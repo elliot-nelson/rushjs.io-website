@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiEnum](./api-extractor-model.apienum.md) &gt; [(constructor)](./api-extractor-model.apienum._constructor_.md)
+
+## ApiEnum.(constructor)
+
+Constructs a new instance of the `ApiEnum` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(options: IApiEnumOptions);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [IApiEnumOptions](./api-extractor-model.iapienumoptions.md) |  |

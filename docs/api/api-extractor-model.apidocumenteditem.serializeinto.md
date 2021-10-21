@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiDocumentedItem](./api-extractor-model.apidocumenteditem.md) &gt; [serializeInto](./api-extractor-model.apidocumenteditem.serializeinto.md)
+
+## ApiDocumentedItem.serializeInto() method
+
+
+<b>Signature:</b>
+
+```typescript
+/** @override */
+serializeInto(jsonObject: Partial<IApiDocumentedItemJson>): void;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  jsonObject | Partial&lt;IApiDocumentedItemJson&gt; |  |
+
+<b>Returns:</b>
+
+void

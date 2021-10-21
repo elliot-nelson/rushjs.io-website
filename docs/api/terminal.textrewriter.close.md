@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/terminal](./terminal.md) &gt; [TextRewriter](./terminal.textrewriter.md) &gt; [close](./terminal.textrewriter.close.md)
+
+## TextRewriter.close() method
+
+Close the `TextRewriterState` object and return any buffered output.
+
+<b>Signature:</b>
+
+```typescript
+abstract close(state: TextRewriterState): string;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  state | [TextRewriterState](./terminal.textrewriterstate.md) |  |
+
+<b>Returns:</b>
+
+string

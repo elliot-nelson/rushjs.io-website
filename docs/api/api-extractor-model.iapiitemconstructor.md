@@ -1,0 +1,19 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [IApiItemConstructor](./api-extractor-model.iapiitemconstructor.md)
+
+## IApiItemConstructor interface
+
+This abstraction is used by the mixin pattern. It describes a class type that inherits from [ApiItem](./api-extractor-model.apiitem.md) .
+
+<b>Signature:</b>
+
+```typescript
+export interface IApiItemConstructor extends Constructor<ApiItem>, PropertiesOf<typeof ApiItem>
+```
+<b>Extends:</b> [Constructor](./api-extractor-model.constructor.md) &gt;

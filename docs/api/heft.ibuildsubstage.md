@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/heft](./heft.md) &gt; [IBuildSubstage](./heft.ibuildsubstage.md)
+
+## IBuildSubstage interface
+
+
+<b>Signature:</b>
+
+```typescript
+export interface IBuildSubstage<TBuildSubstageHooks extends BuildSubstageHooksBase, TBuildSubstageProperties extends object>
+```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [hooks](./heft.ibuildsubstage.hooks.md) | TBuildSubstageHooks |  |
+|  [properties](./heft.ibuildsubstage.properties.md) | TBuildSubstageProperties |  |

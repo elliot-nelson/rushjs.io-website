@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/rush-lib](./rush-lib.md) &gt; [ITryFindRushJsonLocationOptions](./rush-lib.itryfindrushjsonlocationoptions.md)
+
+## ITryFindRushJsonLocationOptions interface
+
+Options for `RushConfiguration.tryFindRushJsonLocation` .
+
+<b>Signature:</b>
+
+```typescript
+export interface ITryFindRushJsonLocationOptions
+```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [showVerbose?](./rush-lib.itryfindrushjsonlocationoptions.showverbose.md) | boolean | <i>(Optional)</i> Whether to show verbose console messages. Defaults to false. |
+|  [startingFolder?](./rush-lib.itryfindrushjsonlocationoptions.startingfolder.md) | string | <i>(Optional)</i> The folder path where the search will start. Defaults tot he current working directory. |

@@ -1,0 +1,29 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [FileSystem](./node-core-library.filesystem.md) &gt; [readFolderAsync](./node-core-library.filesystem.readfolderasync.md)
+
+## FileSystem.readFolderAsync() method
+
+An async version of [FileSystem.readFolder()](./node-core-library.filesystem.readfolder.md) .
+
+<b>Signature:</b>
+
+```typescript
+static readFolderAsync(folderPath: string, options?: IFileSystemReadFolderOptions): Promise<string[]>;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  folderPath | string |  |
+|  options | [IFileSystemReadFolderOptions](./node-core-library.ifilesystemreadfolderoptions.md) |  |
+
+<b>Returns:</b>
+
+Promise&lt;string\[\]&gt;

@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [IApiDocumentedItemOptions](./api-extractor-model.iapidocumenteditemoptions.md)
+
+## IApiDocumentedItemOptions interface
+
+Constructor options for [ApiDocumentedItem](./api-extractor-model.apidocumenteditem.md) .
+
+<b>Signature:</b>
+
+```typescript
+export interface IApiDocumentedItemOptions extends IApiItemOptions
+```
+<b>Extends:</b> [IApiItemOptions](./api-extractor-model.iapiitemoptions.md)
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [docComment](./api-extractor-model.iapidocumenteditemoptions.doccomment.md) | tsdoc.DocComment \| undefined |  |

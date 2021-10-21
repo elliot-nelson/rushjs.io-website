@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/heft](./heft.md) &gt; [IHeftActionConfigurationOptions](./heft.iheftactionconfigurationoptions.md)
+
+## IHeftActionConfigurationOptions interface
+
+Options to be used when retrieving the action configuration.
+
+<b>Signature:</b>
+
+```typescript
+export interface IHeftActionConfigurationOptions
+```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [mergeArrays?](./heft.iheftactionconfigurationoptions.mergearrays.md) | boolean | <i>(Optional)</i> Whether or not arrays should be merged across Heft action configuration files. |

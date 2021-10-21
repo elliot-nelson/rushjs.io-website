@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiPackage](./api-extractor-model.apipackage.md) &gt; [(constructor)](./api-extractor-model.apipackage._constructor_.md)
+
+## ApiPackage.(constructor)
+
+Constructs a new instance of the `ApiPackage` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(options: IApiPackageOptions);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [IApiPackageOptions](./api-extractor-model.iapipackageoptions.md) |  |

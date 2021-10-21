@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [FileSystem](./node-core-library.filesystem.md) &gt; [getRealPathAsync](./node-core-library.filesystem.getrealpathasync.md)
+
+## FileSystem.getRealPathAsync() method
+
+An async version of [FileSystem.getRealPath()](./node-core-library.filesystem.getrealpath.md) .
+
+<b>Signature:</b>
+
+```typescript
+static getRealPathAsync(linkPath: string): Promise<string>;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  linkPath | string |  |
+
+<b>Returns:</b>
+
+Promise&lt;string&gt;

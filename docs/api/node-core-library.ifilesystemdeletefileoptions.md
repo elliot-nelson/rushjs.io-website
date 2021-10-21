@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [IFileSystemDeleteFileOptions](./node-core-library.ifilesystemdeletefileoptions.md)
+
+## IFileSystemDeleteFileOptions interface
+
+The options for [FileSystem.deleteFile()](./node-core-library.filesystem.deletefile.md)
+
+<b>Signature:</b>
+
+```typescript
+export interface IFileSystemDeleteFileOptions
+```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [throwIfNotExists?](./node-core-library.ifilesystemdeletefileoptions.throwifnotexists.md) | boolean | <i>(Optional)</i> If true, will throw an exception if the file did not exist before <code>deleteFile()</code> was called. |

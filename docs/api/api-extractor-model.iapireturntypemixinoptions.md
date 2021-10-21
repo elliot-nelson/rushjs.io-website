@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [IApiReturnTypeMixinOptions](./api-extractor-model.iapireturntypemixinoptions.md)
+
+## IApiReturnTypeMixinOptions interface
+
+Constructor options for [ApiReturnTypeMixin](./api-extractor-model.apireturntypemixin.md) .
+
+<b>Signature:</b>
+
+```typescript
+export interface IApiReturnTypeMixinOptions extends IApiItemOptions
+```
+<b>Extends:</b> [IApiItemOptions](./api-extractor-model.iapiitemoptions.md)
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [returnTypeTokenRange](./api-extractor-model.iapireturntypemixinoptions.returntypetokenrange.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) |  |

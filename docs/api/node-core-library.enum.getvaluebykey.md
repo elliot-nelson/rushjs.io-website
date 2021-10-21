@@ -1,0 +1,32 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [Enum](./node-core-library.enum.md) &gt; [getValueByKey](./node-core-library.enum.getvaluebykey.md)
+
+## Enum.getValueByKey() method
+
+This API is similar to [Enum.tryGetValueByKey()](./node-core-library.enum.trygetvaluebykey.md) , except that it throws an exception if the key is undefined.
+
+<b>Signature:</b>
+
+```typescript
+static getValueByKey<TEnumValue>(enumObject: {
+        [key: string]: TEnumValue | string;
+        [key: number]: TEnumValue | string;
+    }, key: string): TEnumValue;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  enumObject | { \[key: string\]: TEnumValue \| string; \[key: number\]: TEnumValue \| string; } |  |
+|  key | string |  |
+
+<b>Returns:</b>
+
+TEnumValue

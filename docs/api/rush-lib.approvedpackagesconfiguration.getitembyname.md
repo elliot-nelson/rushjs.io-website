@@ -1,0 +1,26 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/rush-lib](./rush-lib.md) &gt; [ApprovedPackagesConfiguration](./rush-lib.approvedpackagesconfiguration.md) &gt; [getItemByName](./rush-lib.approvedpackagesconfiguration.getitembyname.md)
+
+## ApprovedPackagesConfiguration.getItemByName() method
+
+<b>Signature:</b>
+
+```typescript
+getItemByName(packageName: string): ApprovedPackagesItem | undefined;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  packageName | string |  |
+
+<b>Returns:</b>
+
+[ApprovedPackagesItem](./rush-lib.approvedpackagesitem.md) \| undefined

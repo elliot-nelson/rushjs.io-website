@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [JsonFile](./node-core-library.jsonfile.md) &gt; [load](./node-core-library.jsonfile.load.md)
+
+## JsonFile.load() method
+
+Loads a JSON file.
+
+<b>Signature:</b>
+
+```typescript
+static load(jsonFilename: string): JsonObject;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  jsonFilename | string |  |
+
+<b>Returns:</b>
+
+[JsonObject](./node-core-library.jsonobject.md)

@@ -1,0 +1,29 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-documenter](./api-documenter.md) &gt; [MarkdownDocumenterFeature](./api-documenter.markdowndocumenterfeature.md) &gt; [onBeforeWritePage](./api-documenter.markdowndocumenterfeature.onbeforewritepage.md)
+
+## MarkdownDocumenterFeature.onBeforeWritePage() method
+
+This event occurs before each markdown file is written. It provides an opportunity to customize the content of the file.
+
+<b>Signature:</b>
+
+```typescript
+/** @virtual */
+onBeforeWritePage(eventArgs: IMarkdownDocumenterFeatureOnBeforeWritePageArgs): void;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  eventArgs | [IMarkdownDocumenterFeatureOnBeforeWritePageArgs](./api-documenter.imarkdowndocumenterfeatureonbeforewritepageargs.md) |  |
+
+<b>Returns:</b>
+
+void

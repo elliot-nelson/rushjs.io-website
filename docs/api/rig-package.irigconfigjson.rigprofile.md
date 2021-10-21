@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/rig-package](./rig-package.md) &gt; [IRigConfigJson](./rig-package.irigconfigjson.md) &gt; [rigProfile](./rig-package.irigconfigjson.rigprofile.md)
+
+## IRigConfigJson.rigProfile property
+
+Specify which rig profile to use from the rig package.
+
+<b>Signature:</b>
+
+```typescript
+rigProfile?: string;
+```
+
+## Remarks
+
+The name must consist of lowercase alphanumeric words separated by hyphens, for example `"sample-profile"` . If the `"rigProfile"` is not specified, then the profile name `"default"` will be used.
+
+Example: `example-profile`

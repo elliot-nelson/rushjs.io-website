@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [IAnsiEscapeConvertForTestsOptions](./node-core-library.iansiescapeconvertfortestsoptions.md)
+
+## IAnsiEscapeConvertForTestsOptions interface
+
+Options for [AnsiEscape.formatForTests()](./node-core-library.ansiescape.formatfortests.md) .
+
+<b>Signature:</b>
+
+```typescript
+export interface IAnsiEscapeConvertForTestsOptions
+```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [encodeNewlines?](./node-core-library.iansiescapeconvertfortestsoptions.encodenewlines.md) | boolean | <i>(Optional)</i> If true then <code>\n</code> will be replaced by <code>[n]</code>, and <code>\r</code> will be replaced by <code>[r]</code>. |

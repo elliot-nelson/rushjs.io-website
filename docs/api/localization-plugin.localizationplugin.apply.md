@@ -1,0 +1,26 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/localization-plugin](./localization-plugin.md) &gt; [LocalizationPlugin](./localization-plugin.localizationplugin.md) &gt; [apply](./localization-plugin.localizationplugin.apply.md)
+
+## LocalizationPlugin.apply() method
+
+<b>Signature:</b>
+
+```typescript
+apply(compiler: Webpack.Compiler): void;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  compiler | Webpack.Compiler |  |
+
+<b>Returns:</b>
+
+void

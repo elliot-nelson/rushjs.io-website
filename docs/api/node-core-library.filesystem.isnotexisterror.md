@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [FileSystem](./node-core-library.filesystem.md) &gt; [isNotExistError](./node-core-library.filesystem.isnotexisterror.md)
+
+## FileSystem.isNotExistError() method
+
+Returns true if the error provided indicates the file or folder does not exist.
+
+<b>Signature:</b>
+
+```typescript
+static isNotExistError(error: Error): boolean;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  error | Error |  |
+
+<b>Returns:</b>
+
+boolean

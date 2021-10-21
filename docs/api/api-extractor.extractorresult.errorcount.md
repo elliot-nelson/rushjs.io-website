@@ -1,0 +1,22 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor](./api-extractor.md) &gt; [ExtractorResult](./api-extractor.extractorresult.md) &gt; [errorCount](./api-extractor.extractorresult.errorcount.md)
+
+## ExtractorResult.errorCount property
+
+Reports the number of errors encountered during analysis.
+
+<b>Signature:</b>
+
+```typescript
+readonly errorCount: number;
+```
+
+## Remarks
+
+This does not count exceptions, where unexpected issues prematurely abort the operation.

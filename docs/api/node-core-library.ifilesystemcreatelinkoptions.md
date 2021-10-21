@@ -1,0 +1,26 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [IFileSystemCreateLinkOptions](./node-core-library.ifilesystemcreatelinkoptions.md)
+
+## IFileSystemCreateLinkOptions interface
+
+The options for [FileSystem.createSymbolicLinkJunction()](./node-core-library.filesystem.createsymboliclinkjunction.md) .
+
+<b>Signature:</b>
+
+```typescript
+export interface IFileSystemCreateLinkOptions
+```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [alreadyExistsBehavior?](./node-core-library.ifilesystemcreatelinkoptions.alreadyexistsbehavior.md) | [AlreadyExistsBehavior](./node-core-library.alreadyexistsbehavior.md) | <i>(Optional)</i> Specifies what to do if the target object already exists. Defaults to <code>AlreadyExistsBehavior.Error</code>. |
+|  [linkTargetPath](./node-core-library.ifilesystemcreatelinkoptions.linktargetpath.md) | string | The existing path that the symbolic link will point to. |
+|  [newLinkPath](./node-core-library.ifilesystemcreatelinkoptions.newlinkpath.md) | string | The new path for the new symlink link to be created. |

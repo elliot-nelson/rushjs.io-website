@@ -44,6 +44,11 @@ module.exports = {
         'maintainer/build_cache',
         'maintainer/npm_registry_auth'
       ]
+    },
+    {
+      type: 'category',
+      label: 'API',
+      items: require('./api_nav.json')
     }
   ]
 

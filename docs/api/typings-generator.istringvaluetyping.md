@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/typings-generator](./typings-generator.md) &gt; [IStringValueTyping](./typings-generator.istringvaluetyping.md)
+
+## IStringValueTyping interface
+
+
+<b>Signature:</b>
+
+```typescript
+export interface IStringValueTyping
+```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [comment?](./typings-generator.istringvaluetyping.comment.md) | string | <i>(Optional)</i> |
+|  [exportName](./typings-generator.istringvaluetyping.exportname.md) | string |  |

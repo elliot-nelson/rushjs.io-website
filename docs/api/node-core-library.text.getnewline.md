@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [Text](./node-core-library.text.md) &gt; [getNewline](./node-core-library.text.getnewline.md)
+
+## Text.getNewline() method
+
+Returns the newline character sequence for the specified `NewlineKind` .
+
+<b>Signature:</b>
+
+```typescript
+static getNewline(newlineKind: NewlineKind): string;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  newlineKind | [NewlineKind](./node-core-library.newlinekind.md) |  |
+
+<b>Returns:</b>
+
+string

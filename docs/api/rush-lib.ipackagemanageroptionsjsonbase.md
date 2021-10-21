@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/rush-lib](./rush-lib.md) &gt; [IPackageManagerOptionsJsonBase](./rush-lib.ipackagemanageroptionsjsonbase.md)
+
+## IPackageManagerOptionsJsonBase interface
+
+Options for the package manager.
+
+<b>Signature:</b>
+
+```typescript
+export interface IPackageManagerOptionsJsonBase
+```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [environmentVariables?](./rush-lib.ipackagemanageroptionsjsonbase.environmentvariables.md) | [IConfigurationEnvironment](./rush-lib.iconfigurationenvironment.md) | <i>(Optional)</i> Environment variables for the package manager |

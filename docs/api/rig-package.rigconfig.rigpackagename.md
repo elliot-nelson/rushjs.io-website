@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/rig-package](./rig-package.md) &gt; [RigConfig](./rig-package.rigconfig.md) &gt; [rigPackageName](./rig-package.rigconfig.rigpackagename.md)
+
+## RigConfig.rigPackageName property
+
+The `"rigPackageName"` field from `rig.json` , or `""` if the file was not found.
+
+<b>Signature:</b>
+
+```typescript
+readonly rigPackageName: string;
+```
+
+## Remarks
+
+The name must be a valid NPM package name, and must end with the `-rig` suffix.
+
+Example: `example-rig`

@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/module-minifier-plugin](./module-minifier-plugin.md) &gt; [PortableMinifierModuleIdsPlugin](./module-minifier-plugin.portableminifiermoduleidsplugin.md) &gt; [(constructor)](./module-minifier-plugin.portableminifiermoduleidsplugin._constructor_.md)
+
+## PortableMinifierModuleIdsPlugin.(constructor)
+
+Constructs a new instance of the `PortableMinifierModuleIdsPlugin` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(minifierHooks: IModuleMinifierPluginHooks);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  minifierHooks | [IModuleMinifierPluginHooks](./module-minifier-plugin.imoduleminifierpluginhooks.md) |  |

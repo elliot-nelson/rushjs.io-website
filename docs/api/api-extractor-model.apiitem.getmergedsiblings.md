@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiItem](./api-extractor-model.apiitem.md) &gt; [getMergedSiblings](./api-extractor-model.apiitem.getmergedsiblings.md)
+
+## ApiItem.getMergedSiblings() method
+
+If this item has a name (i.e. extends `ApiNameMixin` .
+
+<b>Signature:</b>
+
+```typescript
+getMergedSiblings(): ReadonlyArray<ApiItem>;
+```
+<b>Returns:</b>
+
+ReadonlyArray&lt;[ApiItem](./api-extractor-model.apiitem.md) &gt;
+
+## Remarks
+
+Examples: For a function, this would return all overloads for the function. For a constructor, this would return all overloads for the constructor. For a merged declaration (e.g. a `namespace` and `enum` with the same name), this would return both declarations. If this item does not have a parent, or if it is the only item of its name/kind, then the result is an array containing only this item.

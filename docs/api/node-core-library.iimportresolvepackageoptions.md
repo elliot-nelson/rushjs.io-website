@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [IImportResolvePackageOptions](./node-core-library.iimportresolvepackageoptions.md)
+
+## IImportResolvePackageOptions interface
+
+Options for [Import.resolvePackage()](./node-core-library.import.resolvepackage.md)
+
+<b>Signature:</b>
+
+```typescript
+export interface IImportResolvePackageOptions extends IImportResolveOptions
+```
+<b>Extends:</b> [IImportResolveOptions](./node-core-library.iimportresolveoptions.md)
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [packageName](./node-core-library.iimportresolvepackageoptions.packagename.md) | string | The package name to resolve. For example " rushstack/node-core-library" |

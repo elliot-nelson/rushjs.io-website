@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/localization-plugin](./localization-plugin.md) &gt; [ILocalizedWebpackChunk](./localization-plugin.ilocalizedwebpackchunk.md)
+
+## ILocalizedWebpackChunk interface
+
+
+<b>Signature:</b>
+
+```typescript
+export interface ILocalizedWebpackChunk extends webpack.compilation.Chunk
+```
+<b>Extends:</b> webpack.compilation.Chunk
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [localizedFiles?](./localization-plugin.ilocalizedwebpackchunk.localizedfiles.md) | { \[locale: string\]: string; } | <i>(Optional)</i> |

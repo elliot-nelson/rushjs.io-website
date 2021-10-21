@@ -1,0 +1,19 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/module-minifier-plugin](./module-minifier-plugin.md) &gt; [WorkerPoolMinifier](./module-minifier-plugin.workerpoolminifier.md) &gt; [ref](./module-minifier-plugin.workerpoolminifier.ref.md)
+
+## WorkerPoolMinifier.ref() method
+
+<b>Signature:</b>
+
+```typescript
+ref(): () => Promise<void>;
+```
+<b>Returns:</b>
+
+() =&gt; Promise&lt;void&gt;

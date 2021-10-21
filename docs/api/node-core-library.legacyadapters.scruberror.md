@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [LegacyAdapters](./node-core-library.legacyadapters.md) &gt; [scrubError](./node-core-library.legacyadapters.scruberror.md)
+
+## LegacyAdapters.scrubError() method
+
+Normalizes an object into an `Error` object.
+
+<b>Signature:</b>
+
+```typescript
+static scrubError(error: Error | string | any): Error;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  error | Error \| string \| any |  |
+
+<b>Returns:</b>
+
+Error

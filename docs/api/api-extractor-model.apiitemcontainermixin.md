@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiItemContainerMixin](./api-extractor-model.apiitemcontainermixin.md)
+
+## ApiItemContainerMixin namespace
+
+Static members for [ApiItemContainerMixin](./api-extractor-model.apiitemcontainermixin.md) .
+
+<b>Signature:</b>
+
+```typescript
+export declare namespace ApiItemContainerMixin
+```
+
+## Functions
+
+|  Function | Description |
+|  --- | --- |
+|  [isBaseClassOf(apiItem)](./api-extractor-model.apiitemcontainermixin.isbaseclassof.md) | A type guard that tests whether the specified <code>ApiItem</code> subclass extends the <code>ApiItemContainerMixin</code> mixin. |

@@ -1,0 +1,2249 @@
+[
+  {
+    "type": "doc",
+    "id": "api/index",
+    "label": "API Reference"
+  },
+  {
+    "type": "category",
+    "label": "@microsoft/api-documenter",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/api-documenter.iapidocumenterpluginmanifest",
+        "label": "IApiDocumenterPluginManifest"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-documenter.ifeaturedefinition",
+        "label": "IFeatureDefinition"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-documenter.imarkdowndocumenterfeatureonbeforewritepageargs",
+        "label": "IMarkdownDocumenterFeatureOnBeforeWritePageArgs"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-documenter.imarkdowndocumenterfeatureonfinishedargs",
+        "label": "IMarkdownDocumenterFeatureOnFinishedArgs"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-documenter.markdowndocumenteraccessor",
+        "label": "MarkdownDocumenterAccessor"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-documenter.markdowndocumenterfeature",
+        "label": "MarkdownDocumenterFeature"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-documenter.markdowndocumenterfeaturecontext",
+        "label": "MarkdownDocumenterFeatureContext"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-documenter.pluginfeature",
+        "label": "PluginFeature"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-documenter.pluginfeaturecontext",
+        "label": "PluginFeatureContext"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-documenter.pluginfeatureinitialization",
+        "label": "PluginFeatureInitialization"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@microsoft/api-extractor",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/api-extractor.compilerstate",
+        "label": "CompilerState"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.consolemessageid",
+        "label": "ConsoleMessageId"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.extractor",
+        "label": "Extractor"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.extractorconfig",
+        "label": "ExtractorConfig"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.extractorloglevel",
+        "label": "ExtractorLogLevel"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.extractormessage",
+        "label": "ExtractorMessage"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.extractormessagecategory",
+        "label": "ExtractorMessageCategory"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.extractormessageid",
+        "label": "ExtractorMessageId"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.extractorresult",
+        "label": "ExtractorResult"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.icompilerstatecreateoptions",
+        "label": "ICompilerStateCreateOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.iconfigapireport",
+        "label": "IConfigApiReport"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.iconfigcompiler",
+        "label": "IConfigCompiler"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.iconfigdocmodel",
+        "label": "IConfigDocModel"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.iconfigdtsrollup",
+        "label": "IConfigDtsRollup"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.iconfigfile",
+        "label": "IConfigFile"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.iconfigmessagereportingrule",
+        "label": "IConfigMessageReportingRule"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.iconfigmessagereportingtable",
+        "label": "IConfigMessageReportingTable"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.iconfigtsdocmetadata",
+        "label": "IConfigTsdocMetadata"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.iextractorconfigloadforfolderoptions",
+        "label": "IExtractorConfigLoadForFolderOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.iextractorconfigprepareoptions",
+        "label": "IExtractorConfigPrepareOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.iextractorinvokeoptions",
+        "label": "IExtractorInvokeOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.iextractormessageproperties",
+        "label": "IExtractorMessageProperties"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor.iextractormessagesconfig",
+        "label": "IExtractorMessagesConfig"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@microsoft/api-extractor-model",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apicallsignature",
+        "label": "ApiCallSignature"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apiclass",
+        "label": "ApiClass"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apiconstructor",
+        "label": "ApiConstructor"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apiconstructsignature",
+        "label": "ApiConstructSignature"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apideclareditem",
+        "label": "ApiDeclaredItem"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apidocumenteditem",
+        "label": "ApiDocumentedItem"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apientrypoint",
+        "label": "ApiEntryPoint"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apienum",
+        "label": "ApiEnum"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apienummember",
+        "label": "ApiEnumMember"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apifunction",
+        "label": "ApiFunction"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apiindexsignature",
+        "label": "ApiIndexSignature"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apiinterface",
+        "label": "ApiInterface"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apiitem",
+        "label": "ApiItem"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apiitemcontainermixin",
+        "label": "ApiItemContainerMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apiitemcontainermixin",
+        "label": "ApiItemContainerMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apiitemcontainermixin",
+        "label": "ApiItemContainerMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apiitemkind",
+        "label": "ApiItemKind"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apimethod",
+        "label": "ApiMethod"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apimethodsignature",
+        "label": "ApiMethodSignature"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apimodel",
+        "label": "ApiModel"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apinamemixin",
+        "label": "ApiNameMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apinamemixin",
+        "label": "ApiNameMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apinamemixin",
+        "label": "ApiNameMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apinamespace",
+        "label": "ApiNamespace"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apioptionalmixin",
+        "label": "ApiOptionalMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apioptionalmixin",
+        "label": "ApiOptionalMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apioptionalmixin",
+        "label": "ApiOptionalMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apipackage",
+        "label": "ApiPackage"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apiparameterlistmixin",
+        "label": "ApiParameterListMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apiparameterlistmixin",
+        "label": "ApiParameterListMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apiparameterlistmixin",
+        "label": "ApiParameterListMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apiproperty",
+        "label": "ApiProperty"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apipropertyitem",
+        "label": "ApiPropertyItem"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apipropertysignature",
+        "label": "ApiPropertySignature"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apireleasetagmixin",
+        "label": "ApiReleaseTagMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apireleasetagmixin",
+        "label": "ApiReleaseTagMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apireleasetagmixin",
+        "label": "ApiReleaseTagMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apireturntypemixin",
+        "label": "ApiReturnTypeMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apireturntypemixin",
+        "label": "ApiReturnTypeMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apireturntypemixin",
+        "label": "ApiReturnTypeMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apistaticmixin",
+        "label": "ApiStaticMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apistaticmixin",
+        "label": "ApiStaticMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apistaticmixin",
+        "label": "ApiStaticMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apitypealias",
+        "label": "ApiTypeAlias"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apitypeparameterlistmixin",
+        "label": "ApiTypeParameterListMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apitypeparameterlistmixin",
+        "label": "ApiTypeParameterListMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apitypeparameterlistmixin",
+        "label": "ApiTypeParameterListMixin"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.apivariable",
+        "label": "ApiVariable"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.constructor",
+        "label": "Constructor"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.excerpt",
+        "label": "Excerpt"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.excerpttoken",
+        "label": "ExcerptToken"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.excerpttokenkind",
+        "label": "ExcerptTokenKind"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.heritagetype",
+        "label": "HeritageType"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapicallsignatureoptions",
+        "label": "IApiCallSignatureOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapiclassoptions",
+        "label": "IApiClassOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapiconstructoroptions",
+        "label": "IApiConstructorOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapiconstructsignatureoptions",
+        "label": "IApiConstructSignatureOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapideclareditemoptions",
+        "label": "IApiDeclaredItemOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapidocumenteditemoptions",
+        "label": "IApiDocumentedItemOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapientrypointoptions",
+        "label": "IApiEntryPointOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapienummemberoptions",
+        "label": "IApiEnumMemberOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapienumoptions",
+        "label": "IApiEnumOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapifunctionoptions",
+        "label": "IApiFunctionOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapiindexsignatureoptions",
+        "label": "IApiIndexSignatureOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapiinterfaceoptions",
+        "label": "IApiInterfaceOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapiitemconstructor",
+        "label": "IApiItemConstructor"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapiitemcontainermixinoptions",
+        "label": "IApiItemContainerMixinOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapiitemoptions",
+        "label": "IApiItemOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapimethodoptions",
+        "label": "IApiMethodOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapimethodsignatureoptions",
+        "label": "IApiMethodSignatureOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapinamemixinoptions",
+        "label": "IApiNameMixinOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapinamespaceoptions",
+        "label": "IApiNamespaceOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapioptionalmixinoptions",
+        "label": "IApiOptionalMixinOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapipackageoptions",
+        "label": "IApiPackageOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapipackagesaveoptions",
+        "label": "IApiPackageSaveOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapiparameterlistmixinoptions",
+        "label": "IApiParameterListMixinOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapiparameteroptions",
+        "label": "IApiParameterOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapipropertyitemoptions",
+        "label": "IApiPropertyItemOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapipropertyoptions",
+        "label": "IApiPropertyOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapipropertysignatureoptions",
+        "label": "IApiPropertySignatureOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapireleasetagmixinoptions",
+        "label": "IApiReleaseTagMixinOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapireturntypemixinoptions",
+        "label": "IApiReturnTypeMixinOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapistaticmixinoptions",
+        "label": "IApiStaticMixinOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapitypealiasoptions",
+        "label": "IApiTypeAliasOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapitypeparameterlistmixinoptions",
+        "label": "IApiTypeParameterListMixinOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapitypeparameteroptions",
+        "label": "IApiTypeParameterOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iapivariableoptions",
+        "label": "IApiVariableOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iexcerpttoken",
+        "label": "IExcerptToken"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iexcerpttokenrange",
+        "label": "IExcerptTokenRange"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iparameteroptions",
+        "label": "IParameterOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.iresolvedeclarationreferenceresult",
+        "label": "IResolveDeclarationReferenceResult"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.itypeparameteroptions",
+        "label": "ITypeParameterOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.parameter",
+        "label": "Parameter"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.propertiesof",
+        "label": "PropertiesOf"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.releasetag",
+        "label": "ReleaseTag"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.releasetag",
+        "label": "ReleaseTag"
+      },
+      {
+        "type": "doc",
+        "id": "api/api-extractor-model.typeparameter",
+        "label": "TypeParameter"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@microsoft/rush-lib",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/rush-lib.approvedpackagesconfiguration",
+        "label": "ApprovedPackagesConfiguration"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.approvedpackagesitem",
+        "label": "ApprovedPackagesItem"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.approvedpackagespolicy",
+        "label": "ApprovedPackagesPolicy"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.bumptype",
+        "label": "BumpType"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.changemanager",
+        "label": "ChangeManager"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.commonversionsconfiguration",
+        "label": "CommonVersionsConfiguration"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.dependencytype",
+        "label": "DependencyType"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.environmentvariablenames",
+        "label": "EnvironmentVariableNames"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.event",
+        "label": "Event"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.eventhooks",
+        "label": "EventHooks"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.experimentsconfiguration",
+        "label": "ExperimentsConfiguration"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.iconfigurationenvironment",
+        "label": "IConfigurationEnvironment"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.iconfigurationenvironmentvariable",
+        "label": "IConfigurationEnvironmentVariable"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.iexperimentsjson",
+        "label": "IExperimentsJson"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.ilaunchoptions",
+        "label": "ILaunchOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.individualversionpolicy",
+        "label": "IndividualVersionPolicy"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.ipackagemanageroptionsjsonbase",
+        "label": "IPackageManagerOptionsJsonBase"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.itryfindrushjsonlocationoptions",
+        "label": "ITryFindRushJsonLocationOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.lockstepversionpolicy",
+        "label": "LockStepVersionPolicy"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.npmoptionsconfiguration",
+        "label": "NpmOptionsConfiguration"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.packagejsondependency",
+        "label": "PackageJsonDependency"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.packagejsoneditor",
+        "label": "PackageJsonEditor"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.packagemanager",
+        "label": "PackageManager"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.packagemanagername",
+        "label": "PackageManagerName"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.packagemanageroptionsconfigurationbase",
+        "label": "PackageManagerOptionsConfigurationBase"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.pnpmoptionsconfiguration",
+        "label": "PnpmOptionsConfiguration"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.pnpmstoreoptions",
+        "label": "PnpmStoreOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.repostatefile",
+        "label": "RepoStateFile"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.rush",
+        "label": "Rush"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.rushconfiguration",
+        "label": "RushConfiguration"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.rushconfigurationproject",
+        "label": "RushConfigurationProject"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.versionpolicy",
+        "label": "VersionPolicy"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.versionpolicyconfiguration",
+        "label": "VersionPolicyConfiguration"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.versionpolicydefinitionname",
+        "label": "VersionPolicyDefinitionName"
+      },
+      {
+        "type": "doc",
+        "id": "api/rush-lib.yarnoptionsconfiguration",
+        "label": "YarnOptionsConfiguration"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@rushstack/debug-certificate-manager",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/debug-certificate-manager.certificatemanager",
+        "label": "CertificateManager"
+      },
+      {
+        "type": "doc",
+        "id": "api/debug-certificate-manager.certificatestore",
+        "label": "CertificateStore"
+      },
+      {
+        "type": "doc",
+        "id": "api/debug-certificate-manager.icertificate",
+        "label": "ICertificate"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@rushstack/heft",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/heft.buildstagehooks",
+        "label": "BuildStageHooks"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.buildsubstagehooksbase",
+        "label": "BuildSubstageHooksBase"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.bundlesubstagehooks",
+        "label": "BundleSubstageHooks"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.cleanstagehooks",
+        "label": "CleanStageHooks"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.compilesubstagehooks",
+        "label": "CompileSubstageHooks"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.copyfromcachemode",
+        "label": "CopyFromCacheMode"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.customactionparametertype",
+        "label": "CustomActionParameterType"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.heftconfiguration",
+        "label": "HeftConfiguration"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.heftsession",
+        "label": "HeftSession"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.ibuildstagecontext",
+        "label": "IBuildStageContext"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.ibuildstageproperties",
+        "label": "IBuildStageProperties"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.ibuildsubstage",
+        "label": "IBuildSubstage"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.ibundlesubstage",
+        "label": "IBundleSubstage"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.ibundlesubstageproperties",
+        "label": "IBundleSubstageProperties"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.icleanstagecontext",
+        "label": "ICleanStageContext"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.icleanstageproperties",
+        "label": "ICleanStageProperties"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.icompilesubstage",
+        "label": "ICompileSubstage"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.icompilesubstageproperties",
+        "label": "ICompileSubstageProperties"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.icustomactionoptions",
+        "label": "ICustomActionOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.icustomactionparameter",
+        "label": "ICustomActionParameter"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.icustomactionparameterbase",
+        "label": "ICustomActionParameterBase"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.icustomactionparameterflag",
+        "label": "ICustomActionParameterFlag"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.icustomactionparameterinteger",
+        "label": "ICustomActionParameterInteger"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.icustomactionparameterstring",
+        "label": "ICustomActionParameterString"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.icustomactionparameterstringlist",
+        "label": "ICustomActionParameterStringList"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.iheftactionconfiguration",
+        "label": "IHeftActionConfiguration"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.iheftactionconfigurationoptions",
+        "label": "IHeftActionConfigurationOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.iheftplugin",
+        "label": "IHeftPlugin"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.iheftsessionhooks",
+        "label": "IHeftSessionHooks"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.imetricsdata",
+        "label": "IMetricsData"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.ipostbuildsubstage",
+        "label": "IPostBuildSubstage"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.iprecompilesubstage",
+        "label": "IPreCompileSubstage"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.iscopedlogger",
+        "label": "IScopedLogger"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.istagecontext",
+        "label": "IStageContext"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.iteststagecontext",
+        "label": "ITestStageContext"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.iteststageproperties",
+        "label": "ITestStageProperties"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.metricscollectorhooks",
+        "label": "MetricsCollectorHooks"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.registeraction",
+        "label": "RegisterAction"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.requestaccesstopluginbynamecallback",
+        "label": "RequestAccessToPluginByNameCallback"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.scopedlogger",
+        "label": "ScopedLogger"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.stagehooksbase",
+        "label": "StageHooksBase"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft.teststagehooks",
+        "label": "TestStageHooks"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@rushstack/heft-config-file",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/heft-config-file.configurationfile",
+        "label": "ConfigurationFile"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft-config-file.iconfigurationfileoptions",
+        "label": "IConfigurationFileOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft-config-file.icustompropertyinheritance",
+        "label": "ICustomPropertyInheritance"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft-config-file.ijsonpathmetadata",
+        "label": "IJsonPathMetadata"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft-config-file.ijsonpathsmetadata",
+        "label": "IJsonPathsMetadata"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft-config-file.inheritancetype",
+        "label": "InheritanceType"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft-config-file.ioriginalvalueoptions",
+        "label": "IOriginalValueOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft-config-file.ipropertiesinheritance",
+        "label": "IPropertiesInheritance"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft-config-file.ipropertyinheritance",
+        "label": "IPropertyInheritance"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft-config-file.pathresolutionmethod",
+        "label": "PathResolutionMethod"
+      },
+      {
+        "type": "doc",
+        "id": "api/heft-config-file.propertyinheritancecustomfunction",
+        "label": "PropertyInheritanceCustomFunction"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@rushstack/localization-plugin",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.idefaultlocaleoptions",
+        "label": "IDefaultLocaleOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.ilocaledata",
+        "label": "ILocaleData"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.ilocaleelementmap",
+        "label": "ILocaleElementMap"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.ilocalefiledata",
+        "label": "ILocaleFileData"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.ilocalizationpluginoptions",
+        "label": "ILocalizationPluginOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.ilocalizationstats",
+        "label": "ILocalizationStats"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.ilocalizationstatschunkgroup",
+        "label": "ILocalizationStatsChunkGroup"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.ilocalizationstatsentrypoint",
+        "label": "ILocalizationStatsEntrypoint"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.ilocalizationstatsoptions",
+        "label": "ILocalizationStatsOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.ilocalizeddata",
+        "label": "ILocalizedData"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.ilocalizedstrings",
+        "label": "ILocalizedStrings"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.ilocalizedwebpackchunk",
+        "label": "ILocalizedWebpackChunk"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.ipassthroughlocaleoptions",
+        "label": "IPassthroughLocaleOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.ipseudolocaleoptions",
+        "label": "IPseudolocaleOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.ipseudolocalesoptions",
+        "label": "IPseudolocalesOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.iresolvedmissingtranslations",
+        "label": "IResolvedMissingTranslations"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.itypingsgenerationoptions",
+        "label": "ITypingsGenerationOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.itypingsgeneratoroptions",
+        "label": "ITypingsGeneratorOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.localizationplugin",
+        "label": "LocalizationPlugin"
+      },
+      {
+        "type": "doc",
+        "id": "api/localization-plugin.typingsgenerator",
+        "label": "TypingsGenerator"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@rushstack/module-minifier-plugin",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.chunk_modules_token",
+        "label": "CHUNK_MODULES_TOKEN"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.generatelicensefileforasset",
+        "label": "generateLicenseFileForAsset"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.iassetinfo",
+        "label": "IAssetInfo"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.iassetmap",
+        "label": "IAssetMap"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.idehydratedassets",
+        "label": "IDehydratedAssets"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.identifier_leading_digits",
+        "label": "IDENTIFIER_LEADING_DIGITS"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.identifier_trailing_digits",
+        "label": "IDENTIFIER_TRAILING_DIGITS"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.iextendedmodule",
+        "label": "IExtendedModule"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.imoduleinfo",
+        "label": "IModuleInfo"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.imodulemap",
+        "label": "IModuleMap"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.imoduleminificationcallback",
+        "label": "IModuleMinificationCallback"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.imoduleminificationerrorresult",
+        "label": "IModuleMinificationErrorResult"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.imoduleminificationrequest",
+        "label": "IModuleMinificationRequest"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.imoduleminificationresult",
+        "label": "IModuleMinificationResult"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.imoduleminificationsuccessresult",
+        "label": "IModuleMinificationSuccessResult"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.imoduleminifier",
+        "label": "IModuleMinifier"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.imoduleminifierfunction",
+        "label": "IModuleMinifierFunction"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.imoduleminifierpluginhooks",
+        "label": "IModuleMinifierPluginHooks"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.imoduleminifierpluginoptions",
+        "label": "IModuleMinifierPluginOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.isynchronousminifieroptions",
+        "label": "ISynchronousMinifierOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.iworkerpoolminifieroptions",
+        "label": "IWorkerPoolMinifierOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.module_wrapper_prefix",
+        "label": "MODULE_WRAPPER_PREFIX"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.module_wrapper_suffix",
+        "label": "MODULE_WRAPPER_SUFFIX"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.moduleminifierplugin",
+        "label": "ModuleMinifierPlugin"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.noopminifier",
+        "label": "NoopMinifier"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.portableminifiermoduleidsplugin",
+        "label": "PortableMinifierModuleIdsPlugin"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.rehydrateasset",
+        "label": "rehydrateAsset"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.stage_after",
+        "label": "STAGE_AFTER"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.stage_before",
+        "label": "STAGE_BEFORE"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.synchronousminifier",
+        "label": "SynchronousMinifier"
+      },
+      {
+        "type": "doc",
+        "id": "api/module-minifier-plugin.workerpoolminifier",
+        "label": "WorkerPoolMinifier"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@rushstack/node-core-library",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/node-core-library.alreadyexistsbehavior",
+        "label": "AlreadyExistsBehavior"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.alreadyreportederror",
+        "label": "AlreadyReportedError"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ansiescape",
+        "label": "AnsiEscape"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.async",
+        "label": "Async"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.brand",
+        "label": "Brand"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.colors",
+        "label": "Colors"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.colorvalue",
+        "label": "ColorValue"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.consoleterminalprovider",
+        "label": "ConsoleTerminalProvider"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.encoding",
+        "label": "Encoding"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.enum",
+        "label": "Enum"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.environmentmap",
+        "label": "EnvironmentMap"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.executable",
+        "label": "Executable"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.executablestdiomapping",
+        "label": "ExecutableStdioMapping"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.executablestdiostreammapping",
+        "label": "ExecutableStdioStreamMapping"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.fileconstants",
+        "label": "FileConstants"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.filesystem",
+        "label": "FileSystem"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.filesystemcopyfilesasyncfilter",
+        "label": "FileSystemCopyFilesAsyncFilter"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.filesystemcopyfilesfilter",
+        "label": "FileSystemCopyFilesFilter"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.filesystemstats",
+        "label": "FileSystemStats"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.filewriter",
+        "label": "FileWriter"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.folderconstants",
+        "label": "FolderConstants"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.iansiescapeconvertfortestsoptions",
+        "label": "IAnsiEscapeConvertForTestsOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.iasyncparallelismoptions",
+        "label": "IAsyncParallelismOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.icolorablesequence",
+        "label": "IColorableSequence"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.iconsoleterminalprovideroptions",
+        "label": "IConsoleTerminalProviderOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ienvironmententry",
+        "label": "IEnvironmentEntry"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.iexecutableresolveoptions",
+        "label": "IExecutableResolveOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.iexecutablespawnoptions",
+        "label": "IExecutableSpawnOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.iexecutablespawnsyncoptions",
+        "label": "IExecutableSpawnSyncOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ifilesystemcopyfilebaseoptions",
+        "label": "IFileSystemCopyFileBaseOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ifilesystemcopyfileoptions",
+        "label": "IFileSystemCopyFileOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ifilesystemcopyfilesasyncoptions",
+        "label": "IFileSystemCopyFilesAsyncOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ifilesystemcopyfilesoptions",
+        "label": "IFileSystemCopyFilesOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ifilesystemcreatelinkoptions",
+        "label": "IFileSystemCreateLinkOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ifilesystemdeletefileoptions",
+        "label": "IFileSystemDeleteFileOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ifilesystemmoveoptions",
+        "label": "IFileSystemMoveOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ifilesystemreadfileoptions",
+        "label": "IFileSystemReadFileOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ifilesystemreadfolderoptions",
+        "label": "IFileSystemReadFolderOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ifilesystemupdatetimeparameters",
+        "label": "IFileSystemUpdateTimeParameters"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ifilesystemwritefileoptions",
+        "label": "IFileSystemWriteFileOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ifilewriterflags",
+        "label": "IFileWriterFlags"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.iimportresolvemoduleoptions",
+        "label": "IImportResolveModuleOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.iimportresolveoptions",
+        "label": "IImportResolveOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.iimportresolvepackageoptions",
+        "label": "IImportResolvePackageOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ijsonfilesaveoptions",
+        "label": "IJsonFileSaveOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ijsonfilestringifyoptions",
+        "label": "IJsonFileStringifyOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ijsonschemaerrorinfo",
+        "label": "IJsonSchemaErrorInfo"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ijsonschemafromfileoptions",
+        "label": "IJsonSchemaFromFileOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ijsonschemavalidateoptions",
+        "label": "IJsonSchemaValidateOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.import",
+        "label": "Import"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.inodepackagejson",
+        "label": "INodePackageJson"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.internalerror",
+        "label": "InternalError"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ipackagejson",
+        "label": "IPackageJson"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ipackagejsondependencytable",
+        "label": "IPackageJsonDependencyTable"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ipackagejsonlookupparameters",
+        "label": "IPackageJsonLookupParameters"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ipackagejsonscripttable",
+        "label": "IPackageJsonScriptTable"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ipackagenameparseroptions",
+        "label": "IPackageNameParserOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.iparsedpackagename",
+        "label": "IParsedPackageName"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.iparsedpackagenameorerror",
+        "label": "IParsedPackageNameOrError"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.ipathformatconciselyoptions",
+        "label": "IPathFormatConciselyOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.iprotectablemapparameters",
+        "label": "IProtectableMapParameters"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.istringbufferoutputoptions",
+        "label": "IStringBufferOutputOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.istringbuilder",
+        "label": "IStringBuilder"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.iterminalprovider",
+        "label": "ITerminalProvider"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.jsonfile",
+        "label": "JsonFile"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.jsonnull",
+        "label": "JsonNull"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.jsonobject",
+        "label": "JsonObject"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.jsonschema",
+        "label": "JsonSchema"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.legacyadapters",
+        "label": "LegacyAdapters"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.legacycallback",
+        "label": "LegacyCallback"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.lockfile",
+        "label": "LockFile"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.mapextensions",
+        "label": "MapExtensions"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.newlinekind",
+        "label": "NewlineKind"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.packagejsonlookup",
+        "label": "PackageJsonLookup"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.packagename",
+        "label": "PackageName"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.packagenameparser",
+        "label": "PackageNameParser"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.path",
+        "label": "Path"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.posixmodebits",
+        "label": "PosixModeBits"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.protectablemap",
+        "label": "ProtectableMap"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.sort",
+        "label": "Sort"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.stringbufferterminalprovider",
+        "label": "StringBufferTerminalProvider"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.stringbuilder",
+        "label": "StringBuilder"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.terminal",
+        "label": "Terminal"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.terminalproviderseverity",
+        "label": "TerminalProviderSeverity"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.text",
+        "label": "Text"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.textattribute",
+        "label": "TextAttribute"
+      },
+      {
+        "type": "doc",
+        "id": "api/node-core-library.typeuuid",
+        "label": "TypeUuid"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@rushstack/package-deps-hash",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/package-deps-hash.getgithashforfiles",
+        "label": "getGitHashForFiles"
+      },
+      {
+        "type": "doc",
+        "id": "api/package-deps-hash.getpackagedeps",
+        "label": "getPackageDeps"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@rushstack/rig-package",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/rig-package.iloadforprojectfolderoptions",
+        "label": "ILoadForProjectFolderOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/rig-package.irigconfigjson",
+        "label": "IRigConfigJson"
+      },
+      {
+        "type": "doc",
+        "id": "api/rig-package.rigconfig",
+        "label": "RigConfig"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@rushstack/stream-collator",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/stream-collator.collatedterminal",
+        "label": "CollatedTerminal"
+      },
+      {
+        "type": "doc",
+        "id": "api/stream-collator.collatedwriter",
+        "label": "CollatedWriter"
+      },
+      {
+        "type": "doc",
+        "id": "api/stream-collator.istreamcollatoroptions",
+        "label": "IStreamCollatorOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/stream-collator.streamcollator",
+        "label": "StreamCollator"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@rushstack/terminal",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/terminal.callbackwritable",
+        "label": "CallbackWritable"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.discardstdouttransform",
+        "label": "DiscardStdoutTransform"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.icallbackwritableoptions",
+        "label": "ICallbackWritableOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.idiscardstdouttransformoptions",
+        "label": "IDiscardStdoutTransformOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.inormalizenewlinestextrewriteroptions",
+        "label": "INormalizeNewlinesTextRewriterOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.isplittertransformoptions",
+        "label": "ISplitterTransformOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.istdiolinetransformoptions",
+        "label": "IStdioLineTransformOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.istdiosummarizeroptions",
+        "label": "IStdioSummarizerOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.iterminalchunk",
+        "label": "ITerminalChunk"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.iterminaltransformoptions",
+        "label": "ITerminalTransformOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.iterminalwritableoptions",
+        "label": "ITerminalWritableOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.itextrewritertransformoptions",
+        "label": "ITextRewriterTransformOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.mockwritable",
+        "label": "MockWritable"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.normalizenewlinestextrewriter",
+        "label": "NormalizeNewlinesTextRewriter"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.removecolorstextrewriter",
+        "label": "RemoveColorsTextRewriter"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.splittertransform",
+        "label": "SplitterTransform"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.stderrlinetransform",
+        "label": "StderrLineTransform"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.stdiosummarizer",
+        "label": "StdioSummarizer"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.stdiowritable",
+        "label": "StdioWritable"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.terminalchunkkind",
+        "label": "TerminalChunkKind"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.terminaltransform",
+        "label": "TerminalTransform"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.terminalwritable",
+        "label": "TerminalWritable"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.textrewriter",
+        "label": "TextRewriter"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.textrewriterstate",
+        "label": "TextRewriterState"
+      },
+      {
+        "type": "doc",
+        "id": "api/terminal.textrewritertransform",
+        "label": "TextRewriterTransform"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@rushstack/tree-pattern",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/tree-pattern.itreepatterncaptureset",
+        "label": "ITreePatternCaptureSet"
+      },
+      {
+        "type": "doc",
+        "id": "api/tree-pattern.treenode",
+        "label": "TreeNode"
+      },
+      {
+        "type": "doc",
+        "id": "api/tree-pattern.treepattern",
+        "label": "TreePattern"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@rushstack/ts-command-line",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.commandlineaction",
+        "label": "CommandLineAction"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.commandlinechoiceparameter",
+        "label": "CommandLineChoiceParameter"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.commandlineconstants",
+        "label": "CommandLineConstants"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.commandlineflagparameter",
+        "label": "CommandLineFlagParameter"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.commandlinehelper",
+        "label": "CommandLineHelper"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.commandlineintegerparameter",
+        "label": "CommandLineIntegerParameter"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.commandlineparameter",
+        "label": "CommandLineParameter"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.commandlineparameterkind",
+        "label": "CommandLineParameterKind"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.commandlineparameterprovider",
+        "label": "CommandLineParameterProvider"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.commandlineparameterwithargument",
+        "label": "CommandLineParameterWithArgument"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.commandlineparser",
+        "label": "CommandLineParser"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.commandlineremainder",
+        "label": "CommandLineRemainder"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.commandlinestringlistparameter",
+        "label": "CommandLineStringListParameter"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.commandlinestringparameter",
+        "label": "CommandLineStringParameter"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.dynamiccommandlineaction",
+        "label": "DynamicCommandLineAction"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.dynamiccommandlineparser",
+        "label": "DynamicCommandLineParser"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.ibasecommandlinedefinition",
+        "label": "IBaseCommandLineDefinition"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.ibasecommandlinedefinitionwithargument",
+        "label": "IBaseCommandLineDefinitionWithArgument"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.icommandlineactionoptions",
+        "label": "ICommandLineActionOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.icommandlinechoicedefinition",
+        "label": "ICommandLineChoiceDefinition"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.icommandlineflagdefinition",
+        "label": "ICommandLineFlagDefinition"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.icommandlineintegerdefinition",
+        "label": "ICommandLineIntegerDefinition"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.icommandlineparseroptions",
+        "label": "ICommandLineParserOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.icommandlineremainderdefinition",
+        "label": "ICommandLineRemainderDefinition"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.icommandlinestringdefinition",
+        "label": "ICommandLineStringDefinition"
+      },
+      {
+        "type": "doc",
+        "id": "api/ts-command-line.icommandlinestringlistdefinition",
+        "label": "ICommandLineStringListDefinition"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "@rushstack/typings-generator",
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/typings-generator.istringvaluestypingsgeneratoroptions",
+        "label": "IStringValuesTypingsGeneratorOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/typings-generator.istringvaluetyping",
+        "label": "IStringValueTyping"
+      },
+      {
+        "type": "doc",
+        "id": "api/typings-generator.istringvaluetypings",
+        "label": "IStringValueTypings"
+      },
+      {
+        "type": "doc",
+        "id": "api/typings-generator.itypingsgeneratoroptions",
+        "label": "ITypingsGeneratorOptions"
+      },
+      {
+        "type": "doc",
+        "id": "api/typings-generator.stringvaluestypingsgenerator",
+        "label": "StringValuesTypingsGenerator"
+      },
+      {
+        "type": "doc",
+        "id": "api/typings-generator.typingsgenerator",
+        "label": "TypingsGenerator"
+      }
+    ]
+  }
+]

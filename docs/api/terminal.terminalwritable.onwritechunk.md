@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/terminal](./terminal.md) &gt; [TerminalWritable](./terminal.terminalwritable.md) &gt; [onWriteChunk](./terminal.terminalwritable.onwritechunk.md)
+
+## TerminalWritable.onWriteChunk() method
+
+Subclasses should implement this `abstract` method to process the chunk.
+
+<b>Signature:</b>
+
+```typescript
+protected abstract onWriteChunk(chunk: ITerminalChunk): void;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  chunk | [ITerminalChunk](./terminal.iterminalchunk.md) |  |
+
+<b>Returns:</b>
+
+void

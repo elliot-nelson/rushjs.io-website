@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/heft](./heft.md) &gt; [BundleSubstageHooks](./heft.bundlesubstagehooks.md)
+
+## BundleSubstageHooks class
+
+
+<b>Signature:</b>
+
+```typescript
+export declare class BundleSubstageHooks extends BuildSubstageHooksBase
+```
+<b>Extends:</b> [BuildSubstageHooksBase](./heft.buildsubstagehooksbase.md)
+
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [afterConfigureWebpack](./heft.bundlesubstagehooks.afterconfigurewebpack.md) |  | AsyncSeriesHook |  |
+|  [configureWebpack](./heft.bundlesubstagehooks.configurewebpack.md) |  | AsyncSeriesWaterfallHook&lt;unknown&gt; |  |

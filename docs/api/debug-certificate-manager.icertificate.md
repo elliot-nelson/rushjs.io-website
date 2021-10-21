@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/debug-certificate-manager](./debug-certificate-manager.md) &gt; [ICertificate](./debug-certificate-manager.icertificate.md)
+
+## ICertificate interface
+
+The interface for a debug certificate instance
+
+<b>Signature:</b>
+
+```typescript
+export interface ICertificate
+```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [pemCertificate](./debug-certificate-manager.icertificate.pemcertificate.md) | string \| undefined | Generated pem certificate contents |
+|  [pemKey](./debug-certificate-manager.icertificate.pemkey.md) | string \| undefined | Private key used to sign the pem certificate |

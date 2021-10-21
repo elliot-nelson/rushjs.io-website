@@ -1,0 +1,23 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiItem](./api-extractor-model.apiitem.md) &gt; [displayName](./api-extractor-model.apiitem.displayname.md)
+
+## ApiItem.displayName property
+
+Returns a name for this object that can be used in diagnostic messages, for example.
+
+<b>Signature:</b>
+
+```typescript
+/** @virtual */
+get displayName(): string;
+```
+
+## Remarks
+
+For an object that inherits ApiNameMixin, this will return the declared name (e.g. the name of a TypeScript function). Otherwise, it will return a string such as "(call signature)" or "(model)".

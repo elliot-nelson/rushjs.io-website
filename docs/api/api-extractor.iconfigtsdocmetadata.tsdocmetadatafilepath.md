@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor](./api-extractor.md) &gt; [IConfigTsdocMetadata](./api-extractor.iconfigtsdocmetadata.md) &gt; [tsdocMetadataFilePath](./api-extractor.iconfigtsdocmetadata.tsdocmetadatafilepath.md)
+
+## IConfigTsdocMetadata.tsdocMetadataFilePath property
+
+Specifies where the TSDoc metadata file should be written.
+
+<b>Signature:</b>
+
+```typescript
+tsdocMetadataFilePath?: string;
+```
+
+## Remarks
+
+The path is resolved relative to the folder of the config file that contains the setting; to change this, prepend a folder token such as `<projectFolder>` .
+
+The default value is `<lookup>` , `typings` or `main` fields of the project's package.json. If none of these fields are set, the lookup falls back to `tsdoc-metadata.json` in the package folder.

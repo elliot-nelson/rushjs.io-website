@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiTypeParameterListMixin](./api-extractor-model.apitypeparameterlistmixin.md)
+
+## ApiTypeParameterListMixin namespace
+
+Static members for [ApiTypeParameterListMixin](./api-extractor-model.apitypeparameterlistmixin.md) .
+
+<b>Signature:</b>
+
+```typescript
+export declare namespace ApiTypeParameterListMixin
+```
+
+## Functions
+
+|  Function | Description |
+|  --- | --- |
+|  [isBaseClassOf(apiItem)](./api-extractor-model.apitypeparameterlistmixin.isbaseclassof.md) | A type guard that tests whether the specified <code>ApiItem</code> subclass extends the <code>ApiParameterListMixin</code> mixin. |

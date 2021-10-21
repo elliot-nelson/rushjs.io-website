@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/module-minifier-plugin](./module-minifier-plugin.md) &gt; [IExtendedModule](./module-minifier-plugin.iextendedmodule.md) &gt; [readableIdentifier](./module-minifier-plugin.iextendedmodule.readableidentifier.md)
+
+## IExtendedModule.readableIdentifier() method
+
+Gets a friendly identifier for the module.
+
+<b>Signature:</b>
+
+```typescript
+readableIdentifier(requestShortener: unknown): string;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  requestShortener | unknown |  |
+
+<b>Returns:</b>
+
+string

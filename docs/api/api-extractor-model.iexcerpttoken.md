@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [IExcerptToken](./api-extractor-model.iexcerpttoken.md)
+
+## IExcerptToken interface
+
+
+<b>Signature:</b>
+
+```typescript
+export interface IExcerptToken
+```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [canonicalReference?](./api-extractor-model.iexcerpttoken.canonicalreference.md) | string | <i>(Optional)</i> |
+|  [kind](./api-extractor-model.iexcerpttoken.kind.md) | [ExcerptTokenKind](./api-extractor-model.excerpttokenkind.md) |  |
+|  [text](./api-extractor-model.iexcerpttoken.text.md) | string |  |

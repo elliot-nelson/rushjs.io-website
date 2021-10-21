@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/ts-command-line](./ts-command-line.md) &gt; [CommandLineHelper](./ts-command-line.commandlinehelper.md) &gt; [isTabCompletionActionRequest](./ts-command-line.commandlinehelper.istabcompletionactionrequest.md)
+
+## CommandLineHelper.isTabCompletionActionRequest() method
+
+Returns true if the current command line action is tab-complete.
+
+<b>Signature:</b>
+
+```typescript
+static isTabCompletionActionRequest(argv: string[]): boolean;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  argv | string\[\] |  |
+
+<b>Returns:</b>
+
+boolean

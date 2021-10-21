@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [FileSystem](./node-core-library.filesystem.md) &gt; [isErrnoException](./node-core-library.filesystem.iserrnoexception.md)
+
+## FileSystem.isErrnoException() method
+
+Detects if the provided error object is a `NodeJS.ErrnoException`
+
+<b>Signature:</b>
+
+```typescript
+static isErrnoException(error: Error): error is NodeJS.ErrnoException;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  error | Error |  |
+
+<b>Returns:</b>
+
+error is NodeJS.ErrnoException

@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [Parameter](./api-extractor-model.parameter.md) &gt; [(constructor)](./api-extractor-model.parameter._constructor_.md)
+
+## Parameter.(constructor)
+
+Constructs a new instance of the `Parameter` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(options: IParameterOptions);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [IParameterOptions](./api-extractor-model.iparameteroptions.md) |  |

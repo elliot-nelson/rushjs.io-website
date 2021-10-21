@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [FileSystem](./node-core-library.filesystem.md) &gt; [createSymbolicLinkFolderAsync](./node-core-library.filesystem.createsymboliclinkfolderasync.md)
+
+## FileSystem.createSymbolicLinkFolderAsync() method
+
+An async version of [FileSystem.createSymbolicLinkFolder()](./node-core-library.filesystem.createsymboliclinkfolder.md) .
+
+<b>Signature:</b>
+
+```typescript
+static createSymbolicLinkFolderAsync(options: IFileSystemCreateLinkOptions): Promise<void>;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [IFileSystemCreateLinkOptions](./node-core-library.ifilesystemcreatelinkoptions.md) |  |
+
+<b>Returns:</b>
+
+Promise&lt;void&gt;

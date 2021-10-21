@@ -1,0 +1,19 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/terminal](./terminal.md) &gt; [RemoveColorsTextRewriter](./terminal.removecolorstextrewriter.md) &gt; [initialize](./terminal.removecolorstextrewriter.initialize.md)
+
+## RemoveColorsTextRewriter.initialize() method
+
+<b>Signature:</b>
+
+```typescript
+initialize(): TextRewriterState;
+```
+<b>Returns:</b>
+
+[TextRewriterState](./terminal.textrewriterstate.md)

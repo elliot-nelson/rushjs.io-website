@@ -1,0 +1,26 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiPackage](./api-extractor-model.apipackage.md) &gt; [findEntryPointsByPath](./api-extractor-model.apipackage.findentrypointsbypath.md)
+
+## ApiPackage.findEntryPointsByPath() method
+
+<b>Signature:</b>
+
+```typescript
+findEntryPointsByPath(importPath: string): ReadonlyArray<ApiEntryPoint>;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  importPath | string |  |
+
+<b>Returns:</b>
+
+ReadonlyArray&lt;[ApiEntryPoint](./api-extractor-model.apientrypoint.md) &gt;

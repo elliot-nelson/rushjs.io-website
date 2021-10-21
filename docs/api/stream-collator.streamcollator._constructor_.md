@@ -1,0 +1,27 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/stream-collator](./stream-collator.md) &gt; [StreamCollator](./stream-collator.streamcollator.md) &gt; [(constructor)](./stream-collator.streamcollator._constructor_.md)
+
+## StreamCollator.(constructor)
+
+> This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
+>
+
+Constructs a new instance of the `StreamCollator` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(options: IStreamCollatorOptions);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [IStreamCollatorOptions](./stream-collator.istreamcollatoroptions.md) |  |

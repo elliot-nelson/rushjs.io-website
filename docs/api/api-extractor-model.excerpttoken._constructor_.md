@@ -1,0 +1,26 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ExcerptToken](./api-extractor-model.excerpttoken.md) &gt; [(constructor)](./api-extractor-model.excerpttoken._constructor_.md)
+
+## ExcerptToken.(constructor)
+
+Constructs a new instance of the `ExcerptToken` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(kind: ExcerptTokenKind, text: string, canonicalReference?: DeclarationReference);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  kind | [ExcerptTokenKind](./api-extractor-model.excerpttokenkind.md) |  |
+|  text | string |  |
+|  canonicalReference | DeclarationReference |  |

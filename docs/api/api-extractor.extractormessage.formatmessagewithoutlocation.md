@@ -1,0 +1,19 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor](./api-extractor.md) &gt; [ExtractorMessage](./api-extractor.extractormessage.md) &gt; [formatMessageWithoutLocation](./api-extractor.extractormessage.formatmessagewithoutlocation.md)
+
+## ExtractorMessage.formatMessageWithoutLocation() method
+
+<b>Signature:</b>
+
+```typescript
+formatMessageWithoutLocation(): string;
+```
+<b>Returns:</b>
+
+string

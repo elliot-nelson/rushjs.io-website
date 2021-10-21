@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiItem](./api-extractor-model.apiitem.md) &gt; [(constructor)](./api-extractor-model.apiitem._constructor_.md)
+
+## ApiItem.(constructor)
+
+Constructs a new instance of the `ApiItem` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(options: IApiItemOptions);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [IApiItemOptions](./api-extractor-model.iapiitemoptions.md) |  |

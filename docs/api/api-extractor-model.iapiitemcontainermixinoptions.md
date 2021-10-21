@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [IApiItemContainerMixinOptions](./api-extractor-model.iapiitemcontainermixinoptions.md)
+
+## IApiItemContainerMixinOptions interface
+
+Constructor options for [ApiItemContainerMixin](./api-extractor-model.apiitemcontainermixin.md) .
+
+<b>Signature:</b>
+
+```typescript
+export interface IApiItemContainerMixinOptions extends IApiItemOptions
+```
+<b>Extends:</b> [IApiItemOptions](./api-extractor-model.iapiitemoptions.md)
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [members?](./api-extractor-model.iapiitemcontainermixinoptions.members.md) | [ApiItem](./api-extractor-model.apiitem.md) \[\] | <i>(Optional)</i> |

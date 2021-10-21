@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/module-minifier-plugin](./module-minifier-plugin.md) &gt; [SynchronousMinifier](./module-minifier-plugin.synchronousminifier.md) &gt; [(constructor)](./module-minifier-plugin.synchronousminifier._constructor_.md)
+
+## SynchronousMinifier.(constructor)
+
+Constructs a new instance of the `SynchronousMinifier` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(options: ISynchronousMinifierOptions);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [ISynchronousMinifierOptions](./module-minifier-plugin.isynchronousminifieroptions.md) |  |

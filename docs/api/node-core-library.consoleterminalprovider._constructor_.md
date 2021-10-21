@@ -1,0 +1,27 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [ConsoleTerminalProvider](./node-core-library.consoleterminalprovider.md) &gt; [(constructor)](./node-core-library.consoleterminalprovider._constructor_.md)
+
+## ConsoleTerminalProvider.(constructor)
+
+> This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
+>
+
+Constructs a new instance of the `ConsoleTerminalProvider` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(options?: Partial<IConsoleTerminalProviderOptions>);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | Partial&lt;[IConsoleTerminalProviderOptions](./node-core-library.iconsoleterminalprovideroptions.md) &gt; |  |

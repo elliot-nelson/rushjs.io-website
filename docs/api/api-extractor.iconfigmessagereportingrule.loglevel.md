@@ -1,0 +1,22 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor](./api-extractor.md) &gt; [IConfigMessageReportingRule](./api-extractor.iconfigmessagereportingrule.md) &gt; [logLevel](./api-extractor.iconfigmessagereportingrule.loglevel.md)
+
+## IConfigMessageReportingRule.logLevel property
+
+Specifies whether the message should be written to the the tool's output log.
+
+<b>Signature:</b>
+
+```typescript
+logLevel: ExtractorLogLevel;
+```
+
+## Remarks
+
+Note that the `addToApiReportFile` property may supersede this option.

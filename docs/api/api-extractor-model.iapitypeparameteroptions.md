@@ -1,0 +1,26 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [IApiTypeParameterOptions](./api-extractor-model.iapitypeparameteroptions.md)
+
+## IApiTypeParameterOptions interface
+
+Represents parameter information that is part of [IApiTypeParameterListMixinOptions](./api-extractor-model.iapitypeparameterlistmixinoptions.md)
+
+<b>Signature:</b>
+
+```typescript
+export interface IApiTypeParameterOptions
+```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [constraintTokenRange](./api-extractor-model.iapitypeparameteroptions.constrainttokenrange.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) |  |
+|  [defaultTypeTokenRange](./api-extractor-model.iapitypeparameteroptions.defaulttypetokenrange.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) |  |
+|  [typeParameterName](./api-extractor-model.iapitypeparameteroptions.typeparametername.md) | string |  |

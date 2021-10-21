@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/module-minifier-plugin](./module-minifier-plugin.md) &gt; [ISynchronousMinifierOptions](./module-minifier-plugin.isynchronousminifieroptions.md)
+
+## ISynchronousMinifierOptions interface
+
+Options for configuring the SynchronousMinifier
+
+<b>Signature:</b>
+
+```typescript
+export interface ISynchronousMinifierOptions
+```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [terserOptions?](./module-minifier-plugin.isynchronousminifieroptions.terseroptions.md) | MinifyOptions | <i>(Optional)</i> |

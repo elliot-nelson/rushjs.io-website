@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiClass](./api-extractor-model.apiclass.md) &gt; [(constructor)](./api-extractor-model.apiclass._constructor_.md)
+
+## ApiClass.(constructor)
+
+Constructs a new instance of the `ApiClass` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(options: IApiClassOptions);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [IApiClassOptions](./api-extractor-model.iapiclassoptions.md) |  |

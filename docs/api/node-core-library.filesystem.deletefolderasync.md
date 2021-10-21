@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [FileSystem](./node-core-library.filesystem.md) &gt; [deleteFolderAsync](./node-core-library.filesystem.deletefolderasync.md)
+
+## FileSystem.deleteFolderAsync() method
+
+An async version of [FileSystem.deleteFolder()](./node-core-library.filesystem.deletefolder.md) .
+
+<b>Signature:</b>
+
+```typescript
+static deleteFolderAsync(folderPath: string): Promise<void>;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  folderPath | string |  |
+
+<b>Returns:</b>
+
+Promise&lt;void&gt;

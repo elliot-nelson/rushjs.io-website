@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiTypeAlias](./api-extractor-model.apitypealias.md) &gt; [(constructor)](./api-extractor-model.apitypealias._constructor_.md)
+
+## ApiTypeAlias.(constructor)
+
+Constructs a new instance of the `ApiTypeAlias` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(options: IApiTypeAliasOptions);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [IApiTypeAliasOptions](./api-extractor-model.iapitypealiasoptions.md) |  |

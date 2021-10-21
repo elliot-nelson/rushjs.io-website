@@ -1,0 +1,21 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/rush-lib](./rush-lib.md) &gt; [ApprovedPackagesConfiguration](./rush-lib.approvedpackagesconfiguration.md) &gt; [saveToFile](./rush-lib.approvedpackagesconfiguration.savetofile.md)
+
+## ApprovedPackagesConfiguration.saveToFile() method
+
+Loads the configuration data to the filename that was passed to the constructor.
+
+<b>Signature:</b>
+
+```typescript
+saveToFile(): void;
+```
+<b>Returns:</b>
+
+void

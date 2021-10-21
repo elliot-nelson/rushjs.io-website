@@ -1,0 +1,19 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/ts-command-line](./ts-command-line.md) &gt; [DynamicCommandLineAction](./ts-command-line.dynamiccommandlineaction.md) &gt; [onDefineParameters](./ts-command-line.dynamiccommandlineaction.ondefineparameters.md)
+
+## DynamicCommandLineAction.onDefineParameters() method
+
+<b>Signature:</b>
+
+```typescript
+protected onDefineParameters(): void;
+```
+<b>Returns:</b>
+
+void

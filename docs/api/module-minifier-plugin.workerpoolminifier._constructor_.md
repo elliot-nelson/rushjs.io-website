@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/module-minifier-plugin](./module-minifier-plugin.md) &gt; [WorkerPoolMinifier](./module-minifier-plugin.workerpoolminifier.md) &gt; [(constructor)](./module-minifier-plugin.workerpoolminifier._constructor_.md)
+
+## WorkerPoolMinifier.(constructor)
+
+Constructs a new instance of the `WorkerPoolMinifier` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(options: IWorkerPoolMinifierOptions);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [IWorkerPoolMinifierOptions](./module-minifier-plugin.iworkerpoolminifieroptions.md) |  |

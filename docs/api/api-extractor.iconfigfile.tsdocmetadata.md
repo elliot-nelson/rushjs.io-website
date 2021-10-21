@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor](./api-extractor.md) &gt; [IConfigFile](./api-extractor.iconfigfile.md) &gt; [tsdocMetadata](./api-extractor.iconfigfile.tsdocmetadata.md)
+
+## IConfigFile.tsdocMetadata property
+
+> This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
+>
+
+Configures how the tsdoc-metadata.json file will be generated.
+
+<b>Signature:</b>
+
+```typescript
+tsdocMetadata?: IConfigTsdocMetadata;
+```
+
+## Remarks
+
+This is part of the [IConfigFile](./api-extractor.iconfigfile.md) structure.

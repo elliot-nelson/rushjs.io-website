@@ -1,0 +1,31 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/heft](./heft.md) &gt; [IHeftPlugin](./heft.iheftplugin.md)
+
+## IHeftPlugin interface
+
+
+<b>Signature:</b>
+
+```typescript
+export interface IHeftPlugin<TOptions = void>
+```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [accessor?](./heft.iheftplugin.accessor.md) | object | <i>(Optional)</i> |
+|  [optionsSchema?](./heft.iheftplugin.optionsschema.md) | [JsonSchema](./node-core-library.jsonschema.md) | <i>(Optional)</i> |
+|  [pluginName](./heft.iheftplugin.pluginname.md) | string |  |
+
+## Methods
+
+|  Method | Description |
+|  --- | --- |
+|  [apply(heftSession, heftConfiguration, options)](./heft.iheftplugin.apply.md) |  |

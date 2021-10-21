@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/tree-pattern](./tree-pattern.md) &gt; [TreePattern](./tree-pattern.treepattern.md) &gt; [(constructor)](./tree-pattern.treepattern._constructor_.md)
+
+## TreePattern.(constructor)
+
+Constructs a new instance of the `TreePattern` class
+
+<b>Signature:</b>
+
+```typescript
+constructor(pattern: TreeNode);
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  pattern | [TreeNode](./tree-pattern.treenode.md) |  |

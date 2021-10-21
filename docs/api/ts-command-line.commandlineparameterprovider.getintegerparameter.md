@@ -1,0 +1,32 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/ts-command-line](./ts-command-line.md) &gt; [CommandLineParameterProvider](./ts-command-line.commandlineparameterprovider.md) &gt; [getIntegerParameter](./ts-command-line.commandlineparameterprovider.getintegerparameter.md)
+
+## CommandLineParameterProvider.getIntegerParameter() method
+
+Returns the CommandLineIntegerParameter with the specified long name.
+
+<b>Signature:</b>
+
+```typescript
+getIntegerParameter(parameterLongName: string): CommandLineIntegerParameter;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  parameterLongName | string |  |
+
+<b>Returns:</b>
+
+[CommandLineIntegerParameter](./ts-command-line.commandlineintegerparameter.md)
+
+## Remarks
+
+This method throws an exception if the parameter is not defined.

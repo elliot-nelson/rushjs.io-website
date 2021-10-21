@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [IApiEnumMemberOptions](./api-extractor-model.iapienummemberoptions.md)
+
+## IApiEnumMemberOptions interface
+
+Constructor options for [ApiEnumMember](./api-extractor-model.apienummember.md) .
+
+<b>Signature:</b>
+
+```typescript
+export interface IApiEnumMemberOptions extends IApiNameMixinOptions, IApiReleaseTagMixinOptions, IApiDeclaredItemOptions
+```
+<b>Extends:</b> [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md) , [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [initializerTokenRange](./api-extractor-model.iapienummemberoptions.initializertokenrange.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) |  |

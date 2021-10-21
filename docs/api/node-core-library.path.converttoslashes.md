@@ -1,0 +1,32 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [Path](./node-core-library.path.md) &gt; [convertToSlashes](./node-core-library.path.converttoslashes.md)
+
+## Path.convertToSlashes() method
+
+Replaces Windows-style backslashes with POSIX-style slashes.
+
+<b>Signature:</b>
+
+```typescript
+static convertToSlashes(inputPath: string): string;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  inputPath | string |  |
+
+<b>Returns:</b>
+
+string
+
+## Remarks
+
+POSIX is a registered trademark of the Institute of Electrical and Electronic Engineers, Inc.

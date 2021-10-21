@@ -1,0 +1,33 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [IImportResolveOptions](./node-core-library.iimportresolveoptions.md) &gt; [includeSystemModules](./node-core-library.iimportresolveoptions.includesystemmodules.md)
+
+## IImportResolveOptions.includeSystemModules property
+
+If true, if the package name matches a Node.js system module, then the return value will be the package name without any path.
+
+<b>Signature:</b>
+
+```typescript
+includeSystemModules?: boolean;
+```
+
+## Remarks
+
+This will take precedence over an installed NPM package of the same name.
+
+Example:
+
+```ts
+// Returns the string "fs" indicating the Node.js system module
+Import.resolveModulePath({
+  resolvePath: "fs",
+  basePath: process.cwd()
+})
+
+```

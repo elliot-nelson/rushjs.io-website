@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/ts-command-line](./ts-command-line.md) &gt; [ICommandLineIntegerDefinition](./ts-command-line.icommandlineintegerdefinition.md)
+
+## ICommandLineIntegerDefinition interface
+
+For use with [CommandLineParameterProvider.defineIntegerParameter()](./ts-command-line.commandlineparameterprovider.defineintegerparameter.md) , this interface defines a command line parameter whose argument is an integer value.
+
+<b>Signature:</b>
+
+```typescript
+export interface ICommandLineIntegerDefinition extends IBaseCommandLineDefinitionWithArgument
+```
+<b>Extends:</b> [IBaseCommandLineDefinitionWithArgument](./ts-command-line.ibasecommandlinedefinitionwithargument.md)
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [defaultValue?](./ts-command-line.icommandlineintegerdefinition.defaultvalue.md) | number | <i>(Optional)</i> The default value which will be used if the parameter is omitted from the command line. |

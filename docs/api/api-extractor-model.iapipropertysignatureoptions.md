@@ -1,0 +1,19 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [IApiPropertySignatureOptions](./api-extractor-model.iapipropertysignatureoptions.md)
+
+## IApiPropertySignatureOptions interface
+
+Constructor options for [ApiPropertySignature](./api-extractor-model.apipropertysignature.md) .
+
+<b>Signature:</b>
+
+```typescript
+export interface IApiPropertySignatureOptions extends IApiPropertyItemOptions
+```
+<b>Extends:</b> [IApiPropertyItemOptions](./api-extractor-model.iapipropertyitemoptions.md)

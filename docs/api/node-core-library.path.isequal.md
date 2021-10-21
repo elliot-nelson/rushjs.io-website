@@ -1,0 +1,33 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [Path](./node-core-library.path.md) &gt; [isEqual](./node-core-library.path.isequal.md)
+
+## Path.isEqual() method
+
+Returns true if `path1` and `path2` refer to the same underlying path.
+
+<b>Signature:</b>
+
+```typescript
+static isEqual(path1: string, path2: string): boolean;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  path1 | string |  |
+|  path2 | string |  |
+
+<b>Returns:</b>
+
+boolean
+
+## Remarks
+
+The comparison is performed using `path.relative()` .

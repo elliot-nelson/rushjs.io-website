@@ -1,0 +1,26 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@microsoft/api-extractor-model](./api-extractor-model.md) &gt; [ApiPackage](./api-extractor-model.apipackage.md) &gt; [loadFromJsonFile](./api-extractor-model.apipackage.loadfromjsonfile.md)
+
+## ApiPackage.loadFromJsonFile() method
+
+<b>Signature:</b>
+
+```typescript
+static loadFromJsonFile(apiJsonFilename: string): ApiPackage;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  apiJsonFilename | string |  |
+
+<b>Returns:</b>
+
+[ApiPackage](./api-extractor-model.apipackage.md)

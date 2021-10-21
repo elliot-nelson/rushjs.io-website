@@ -1,0 +1,25 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/rig-package](./rig-package.md) &gt; [IRigConfigJson](./rig-package.irigconfigjson.md)
+
+## IRigConfigJson interface
+
+Represents the literal contents of the `config/rig.json` file.
+
+<b>Signature:</b>
+
+```typescript
+export interface IRigConfigJson
+```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [rigPackageName](./rig-package.irigconfigjson.rigpackagename.md) | string | The name of the rig package to use. |
+|  [rigProfile?](./rig-package.irigconfigjson.rigprofile.md) | string | <i>(Optional)</i> Specify which rig profile to use from the rig package. |

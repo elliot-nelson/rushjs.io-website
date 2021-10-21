@@ -1,0 +1,24 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/heft](./heft.md) &gt; [CleanStageHooks](./heft.cleanstagehooks.md)
+
+## CleanStageHooks class
+
+
+<b>Signature:</b>
+
+```typescript
+export declare class CleanStageHooks extends StageHooksBase<ICleanStageProperties>
+```
+<b>Extends:</b> [StageHooksBase](./heft.stagehooksbase.md) &gt;
+
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [run](./heft.cleanstagehooks.run.md) |  | AsyncParallelHook |  |

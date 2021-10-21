@@ -1,0 +1,28 @@
+---
+layout: page
+navigation_source: api_nav
+improve_this_button: false
+---
+
+
+[Home](./index.md) &gt; [@rushstack/node-core-library](./node-core-library.md) &gt; [FileSystem](./node-core-library.filesystem.md) &gt; [readLinkAsync](./node-core-library.filesystem.readlinkasync.md)
+
+## FileSystem.readLinkAsync() method
+
+An async version of [FileSystem.readLink()](./node-core-library.filesystem.readlink.md) .
+
+<b>Signature:</b>
+
+```typescript
+static readLinkAsync(path: string): Promise<string>;
+```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  path | string |  |
+
+<b>Returns:</b>
+
+Promise&lt;string&gt;
