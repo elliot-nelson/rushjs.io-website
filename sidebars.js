@@ -45,11 +45,7 @@ module.exports = {
         'maintainer/npm_registry_auth'
       ]
     },
-    {
-      type: 'category',
-      label: 'API',
-      items: require('./api_nav.json')
-    }
+    require('./api_nav.json')
   ]
 
   // But you can create a sidebar manually
